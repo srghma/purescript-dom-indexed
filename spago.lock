@@ -5,26 +5,36 @@
         "path": "./",
         "core": {
           "dependencies": [
-            "datetime",
+            {
+              "datetime": ">=6.1.0 <7.0.0"
+            },
             {
               "media-types": ">=6.0.0 <7.0.0"
             },
             {
               "prelude": ">=6.0.2 <7.0.0"
             },
-            "strings",
+            {
+              "strings": ">=6.0.1 <7.0.0"
+            },
             {
               "web-clipboard": ">=6.0.0 <7.0.0"
             },
-            "web-events",
-            "web-html",
+            {
+              "web-events": ">=4.0.0 <5.0.0"
+            },
+            {
+              "web-html": ">=4.1.0 <5.0.0"
+            },
             {
               "web-pointerevents": ">=2.0.0 <3.0.0"
             },
             {
               "web-touchevents": ">=4.0.0 <5.0.0"
             },
-            "web-uievents"
+            {
+              "web-uievents": ">=5.0.0 <6.0.0"
+            }
           ],
           "build_plan": [
             "arrays",
