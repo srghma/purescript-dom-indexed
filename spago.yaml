@@ -1,5 +1,12 @@
 package:
   name: dom-indexed
+  description: Typed DOM attributes and properties
+  publish:
+    license: Apache-2.0
+    version: 12.0.0
+    location:
+      githubOwner: purescript-halogen
+      githubRepo: purescript-dom-indexed
   dependencies:
     - datetime: ">=6.1.0 <7.0.0"
     - media-types: ">=6.0.0 <7.0.0"
